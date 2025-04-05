@@ -10,3 +10,10 @@ let min = 5;
 let max = 10;
 let numAleatorio2 = Math.round(Math.random() * (max - min) + min);
 console.log(numAleatorio2);
+
+//Comprueba el funcionamiento del método sign().
+console.log(Math.sign(10))
+console.log(Math.sign(-5)); 
+console.log(Math.sign(0)); 
+console.log(Math.sign(-0));
+console.log(Math.sign(NaN));
